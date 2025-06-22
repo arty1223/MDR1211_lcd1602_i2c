@@ -1,5 +1,0 @@
-D:/Documents/Milandr/MDR1211_lcd1602_i2c/example/CMakeFiles/Milandr-template.dir
-D:/Documents/Milandr/MDR1211_lcd1602_i2c/example/CMakeFiles/edit_cache.dir
-D:/Documents/Milandr/MDR1211_lcd1602_i2c/example/CMakeFiles/rebuild_cache.dir
-D:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMakeFiles/edit_cache.dir
-D:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMakeFiles/rebuild_cache.dir
