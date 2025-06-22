@@ -34,7 +34,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = E$:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/
+cmake_ninja_workdir = D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/
 # =============================================================================
 # Object build statements for EXECUTABLE target Milandr-template
 
@@ -44,51 +44,131 @@ cmake_ninja_workdir = E$:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/
 
 build cmake_object_order_depends_target_Milandr-template: phony || CMakeFiles/Milandr-template.dir
 
-build CMakeFiles/Milandr-template.dir/app/src/app.c.obj: C_COMPILER__Milandr-template_unscanned_ E$:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/app/src/app.c || cmake_object_order_depends_target_Milandr-template
+build CMakeFiles/Milandr-template.dir/app/src/app.c.obj: C_COMPILER__Milandr-template_unscanned_ D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/src/app.c || cmake_object_order_depends_target_Milandr-template
   DEFINES = -DUSE_MDR32F9Q2I
   DEP_FILE = CMakeFiles\Milandr-template.dir\app\src\app.c.obj.d
   FLAGS = -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
-  INCLUDES = -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/App/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/CoreSupport -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/startup -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL
+  INCLUDES = -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/CoreSupport -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL
   OBJECT_DIR = CMakeFiles\Milandr-template.dir
   OBJECT_FILE_DIR = CMakeFiles\Milandr-template.dir\app\src
   TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
   TARGET_PDB = Milandr-template.pdb
 
-build CMakeFiles/Milandr-template.dir/Startup/startup_gcc_MDR32F9Q2I.s.obj: ASM_COMPILER__Milandr-template_unscanned_ E$:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Startup/startup_gcc_MDR32F9Q2I.s || cmake_object_order_depends_target_Milandr-template
+build CMakeFiles/Milandr-template.dir/app/src/clk.c.obj: C_COMPILER__Milandr-template_unscanned_ D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/src/clk.c || cmake_object_order_depends_target_Milandr-template
+  DEFINES = -DUSE_MDR32F9Q2I
+  DEP_FILE = CMakeFiles\Milandr-template.dir\app\src\clk.c.obj.d
+  FLAGS = -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
+  INCLUDES = -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/CoreSupport -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL
+  OBJECT_DIR = CMakeFiles\Milandr-template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Milandr-template.dir\app\src
+  TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
+  TARGET_PDB = Milandr-template.pdb
+
+build CMakeFiles/Milandr-template.dir/app/src/systick.c.obj: C_COMPILER__Milandr-template_unscanned_ D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/src/systick.c || cmake_object_order_depends_target_Milandr-template
+  DEFINES = -DUSE_MDR32F9Q2I
+  DEP_FILE = CMakeFiles\Milandr-template.dir\app\src\systick.c.obj.d
+  FLAGS = -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
+  INCLUDES = -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/CoreSupport -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL
+  OBJECT_DIR = CMakeFiles\Milandr-template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Milandr-template.dir\app\src
+  TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
+  TARGET_PDB = Milandr-template.pdb
+
+build CMakeFiles/Milandr-template.dir/app/src/lcd1602_i2c_lib.c.obj: C_COMPILER__Milandr-template_unscanned_ D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/src/lcd1602_i2c_lib.c || cmake_object_order_depends_target_Milandr-template
+  DEFINES = -DUSE_MDR32F9Q2I
+  DEP_FILE = CMakeFiles\Milandr-template.dir\app\src\lcd1602_i2c_lib.c.obj.d
+  FLAGS = -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
+  INCLUDES = -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/CoreSupport -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL
+  OBJECT_DIR = CMakeFiles\Milandr-template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Milandr-template.dir\app\src
+  TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
+  TARGET_PDB = Milandr-template.pdb
+
+build CMakeFiles/Milandr-template.dir/Startup/startup_gcc_MDR32F9Q2I.s.obj: ASM_COMPILER__Milandr-template_unscanned_ D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Startup/startup_gcc_MDR32F9Q2I.s || cmake_object_order_depends_target_Milandr-template
   DEFINES = -DUSE_MDR32F9Q2I
   DEP_FILE = CMakeFiles\Milandr-template.dir\Startup\startup_gcc_MDR32F9Q2I.s.obj.d
   FLAGS = -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
-  INCLUDES = -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/App/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/CoreSupport -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/startup -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL
+  INCLUDES = -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/CoreSupport -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL
   OBJECT_DIR = CMakeFiles\Milandr-template.dir
   OBJECT_FILE_DIR = CMakeFiles\Milandr-template.dir\Startup
   TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
   TARGET_PDB = Milandr-template.pdb
 
-build CMakeFiles/Milandr-template.dir/Drivers/CMSIS/DeviceSupport/startup/system_MDR32F9Q2I.c.obj: C_COMPILER__Milandr-template_unscanned_ E$:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/startup/system_MDR32F9Q2I.c || cmake_object_order_depends_target_Milandr-template
+build CMakeFiles/Milandr-template.dir/Drivers/CMSIS/DeviceSupport/startup/system_MDR32F9Q2I.c.obj: C_COMPILER__Milandr-template_unscanned_ D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup/system_MDR32F9Q2I.c || cmake_object_order_depends_target_Milandr-template
   DEFINES = -DUSE_MDR32F9Q2I
   DEP_FILE = CMakeFiles\Milandr-template.dir\Drivers\CMSIS\DeviceSupport\startup\system_MDR32F9Q2I.c.obj.d
   FLAGS = -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
-  INCLUDES = -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/App/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/CoreSupport -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/startup -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL
+  INCLUDES = -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/CoreSupport -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL
   OBJECT_DIR = CMakeFiles\Milandr-template.dir
   OBJECT_FILE_DIR = CMakeFiles\Milandr-template.dir\Drivers\CMSIS\DeviceSupport\startup
   TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
   TARGET_PDB = Milandr-template.pdb
 
-build CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_rst_clk.c.obj: C_COMPILER__Milandr-template_unscanned_ E$:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL/src/MDR32FxQI_rst_clk.c || cmake_object_order_depends_target_Milandr-template
+build CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_asm_GCC.S.obj: ASM_COMPILER__Milandr-template_unscanned_ D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/src/MDR32FxQI_asm_GCC.S || cmake_object_order_depends_target_Milandr-template
   DEFINES = -DUSE_MDR32F9Q2I
-  DEP_FILE = CMakeFiles\Milandr-template.dir\Drivers\SPL\src\MDR32FxQI_rst_clk.c.obj.d
-  FLAGS = -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
-  INCLUDES = -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/App/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/CoreSupport -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/startup -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL
+  DEP_FILE = CMakeFiles\Milandr-template.dir\Drivers\SPL\src\MDR32FxQI_asm_GCC.S.obj.d
+  FLAGS = -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
+  INCLUDES = -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/CoreSupport -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL
   OBJECT_DIR = CMakeFiles\Milandr-template.dir
   OBJECT_FILE_DIR = CMakeFiles\Milandr-template.dir\Drivers\SPL\src
   TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
   TARGET_PDB = Milandr-template.pdb
 
-build CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_port.c.obj: C_COMPILER__Milandr-template_unscanned_ E$:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL/src/MDR32FxQI_port.c || cmake_object_order_depends_target_Milandr-template
+build CMakeFiles/Milandr-template.dir/Drivers/SPL/src/syscalls.c.obj: C_COMPILER__Milandr-template_unscanned_ D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/src/syscalls.c || cmake_object_order_depends_target_Milandr-template
+  DEFINES = -DUSE_MDR32F9Q2I
+  DEP_FILE = CMakeFiles\Milandr-template.dir\Drivers\SPL\src\syscalls.c.obj.d
+  FLAGS = -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
+  INCLUDES = -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/CoreSupport -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL
+  OBJECT_DIR = CMakeFiles\Milandr-template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Milandr-template.dir\Drivers\SPL\src
+  TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
+  TARGET_PDB = Milandr-template.pdb
+
+build CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_rst_clk.c.obj: C_COMPILER__Milandr-template_unscanned_ D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/src/MDR32FxQI_rst_clk.c || cmake_object_order_depends_target_Milandr-template
+  DEFINES = -DUSE_MDR32F9Q2I
+  DEP_FILE = CMakeFiles\Milandr-template.dir\Drivers\SPL\src\MDR32FxQI_rst_clk.c.obj.d
+  FLAGS = -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
+  INCLUDES = -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/CoreSupport -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL
+  OBJECT_DIR = CMakeFiles\Milandr-template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Milandr-template.dir\Drivers\SPL\src
+  TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
+  TARGET_PDB = Milandr-template.pdb
+
+build CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_port.c.obj: C_COMPILER__Milandr-template_unscanned_ D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/src/MDR32FxQI_port.c || cmake_object_order_depends_target_Milandr-template
   DEFINES = -DUSE_MDR32F9Q2I
   DEP_FILE = CMakeFiles\Milandr-template.dir\Drivers\SPL\src\MDR32FxQI_port.c.obj.d
   FLAGS = -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
-  INCLUDES = -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/App/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/CoreSupport -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/startup -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL
+  INCLUDES = -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/CoreSupport -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL
+  OBJECT_DIR = CMakeFiles\Milandr-template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Milandr-template.dir\Drivers\SPL\src
+  TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
+  TARGET_PDB = Milandr-template.pdb
+
+build CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_eeprom.c.obj: C_COMPILER__Milandr-template_unscanned_ D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/src/MDR32FxQI_eeprom.c || cmake_object_order_depends_target_Milandr-template
+  DEFINES = -DUSE_MDR32F9Q2I
+  DEP_FILE = CMakeFiles\Milandr-template.dir\Drivers\SPL\src\MDR32FxQI_eeprom.c.obj.d
+  FLAGS = -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
+  INCLUDES = -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/CoreSupport -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL
+  OBJECT_DIR = CMakeFiles\Milandr-template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Milandr-template.dir\Drivers\SPL\src
+  TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
+  TARGET_PDB = Milandr-template.pdb
+
+build CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_i2c.c.obj: C_COMPILER__Milandr-template_unscanned_ D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/src/MDR32FxQI_i2c.c || cmake_object_order_depends_target_Milandr-template
+  DEFINES = -DUSE_MDR32F9Q2I
+  DEP_FILE = CMakeFiles\Milandr-template.dir\Drivers\SPL\src\MDR32FxQI_i2c.c.obj.d
+  FLAGS = -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
+  INCLUDES = -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/CoreSupport -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL
+  OBJECT_DIR = CMakeFiles\Milandr-template.dir
+  OBJECT_FILE_DIR = CMakeFiles\Milandr-template.dir\Drivers\SPL\src
+  TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
+  TARGET_PDB = Milandr-template.pdb
+
+build CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_bkp.c.obj: C_COMPILER__Milandr-template_unscanned_ D$:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/src/MDR32FxQI_bkp.c || cmake_object_order_depends_target_Milandr-template
+  DEFINES = -DUSE_MDR32F9Q2I
+  DEP_FILE = CMakeFiles\Milandr-template.dir\Drivers\SPL\src\MDR32FxQI_bkp.c.obj.d
+  FLAGS = -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0
+  INCLUDES = -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/app/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/CoreSupport -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/CMSIS/DeviceSupport/startup -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL/inc -ID:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/SPL
   OBJECT_DIR = CMakeFiles\Milandr-template.dir
   OBJECT_FILE_DIR = CMakeFiles\Milandr-template.dir\Drivers\SPL\src
   TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
@@ -102,10 +182,10 @@ build CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_port.c.obj: C_CO
 #############################################
 # Link the executable Milandr-template
 
-build Milandr-template: C_EXECUTABLE_LINKER__Milandr-template_ CMakeFiles/Milandr-template.dir/app/src/app.c.obj CMakeFiles/Milandr-template.dir/Startup/startup_gcc_MDR32F9Q2I.s.obj CMakeFiles/Milandr-template.dir/Drivers/CMSIS/DeviceSupport/startup/system_MDR32F9Q2I.c.obj CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_rst_clk.c.obj CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_port.c.obj
-  LINK_FLAGS = -Wl,-gc-sections,--print-memory-usage,-Map=/.map -mcpu=cortex-m3 -mthumb -mthumb-interwork -T E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/MDR32F9Q2I.ld
+build Milandr-template: C_EXECUTABLE_LINKER__Milandr-template_ CMakeFiles/Milandr-template.dir/app/src/app.c.obj CMakeFiles/Milandr-template.dir/app/src/clk.c.obj CMakeFiles/Milandr-template.dir/app/src/systick.c.obj CMakeFiles/Milandr-template.dir/app/src/lcd1602_i2c_lib.c.obj CMakeFiles/Milandr-template.dir/Startup/startup_gcc_MDR32F9Q2I.s.obj CMakeFiles/Milandr-template.dir/Drivers/CMSIS/DeviceSupport/startup/system_MDR32F9Q2I.c.obj CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_asm_GCC.S.obj CMakeFiles/Milandr-template.dir/Drivers/SPL/src/syscalls.c.obj CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_rst_clk.c.obj CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_port.c.obj CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_eeprom.c.obj CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_i2c.c.obj CMakeFiles/Milandr-template.dir/Drivers/SPL/src/MDR32FxQI_bkp.c.obj
+  LINK_FLAGS = -Wl,-gc-sections,--print-memory-usage,-Map=/.map -mcpu=cortex-m3 -mthumb -mthumb-interwork -T D:/Documents/Milandr/MDR1211_lcd1602_i2c/example/MDR32F9Q2I.ld -specs=nano.specs -specs=nosys.specs -u _printf_float
   OBJECT_DIR = CMakeFiles\Milandr-template.dir
-  POST_BUILD = cd .
+  POST_BUILD = cmd.exe /C "cd /D D:\Documents\Milandr\MDR1211_lcd1602_i2c\example && arm-none-eabi-objcopy -O ihex D:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Milandr-template Milandr-template.hex && arm-none-eabi-objcopy -O binary D:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Milandr-template Milandr-template.bin"
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\Milandr-template.dir\
   TARGET_FILE = Milandr-template
@@ -116,7 +196,7 @@ build Milandr-template: C_EXECUTABLE_LINKER__Milandr-template_ CMakeFiles/Miland
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Desktop\MCUs\Milandr\Milandr_GCC_template_2 && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake-gui.exe -SE:\Desktop\MCUs\Milandr\Milandr_GCC_template_2 -BE:\Desktop\MCUs\Milandr\Milandr_GCC_template_2"
+  COMMAND = cmd.exe /C "cd /D D:\Documents\Milandr\MDR1211_lcd1602_i2c\example && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake-gui.exe -SD:\Documents\Milandr\MDR1211_lcd1602_i2c\example -BD:\Documents\Milandr\MDR1211_lcd1602_i2c\example"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -128,7 +208,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Desktop\MCUs\Milandr\Milandr_GCC_template_2 && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SE:\Desktop\MCUs\Milandr\Milandr_GCC_template_2 -BE:\Desktop\MCUs\Milandr\Milandr_GCC_template_2"
+  COMMAND = cmd.exe /C "cd /D D:\Documents\Milandr\MDR1211_lcd1602_i2c\example && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SD:\Documents\Milandr\MDR1211_lcd1602_i2c\example -BD:\Documents\Milandr\MDR1211_lcd1602_i2c\example"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -137,7 +217,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/CMakeLists.txt
+# D:/Documents/Milandr/MDR1211_lcd1602_i2c/example/CMakeLists.txt
 # =============================================================================
 
 
@@ -145,7 +225,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build Drivers/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Desktop\MCUs\Milandr\Milandr_GCC_template_2\Drivers && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake-gui.exe -SE:\Desktop\MCUs\Milandr\Milandr_GCC_template_2 -BE:\Desktop\MCUs\Milandr\Milandr_GCC_template_2"
+  COMMAND = cmd.exe /C "cd /D D:\Documents\Milandr\MDR1211_lcd1602_i2c\example\Drivers && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake-gui.exe -SD:\Documents\Milandr\MDR1211_lcd1602_i2c\example -BD:\Documents\Milandr\MDR1211_lcd1602_i2c\example"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -157,7 +237,7 @@ build Drivers/edit_cache: phony Drivers/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build Drivers/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Desktop\MCUs\Milandr\Milandr_GCC_template_2\Drivers && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SE:\Desktop\MCUs\Milandr\Milandr_GCC_template_2 -BE:\Desktop\MCUs\Milandr\Milandr_GCC_template_2"
+  COMMAND = cmd.exe /C "cd /D D:\Documents\Milandr\MDR1211_lcd1602_i2c\example\Drivers && C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SD:\Documents\Milandr\MDR1211_lcd1602_i2c\example -BD:\Documents\Milandr\MDR1211_lcd1602_i2c\example"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -173,14 +253,14 @@ build Drivers/rebuild_cache: phony Drivers/CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2
+# Folder: D:/Documents/Milandr/MDR1211_lcd1602_i2c/example
 
 build all: phony Milandr-template Drivers/all
 
 # =============================================================================
 
 #############################################
-# Folder: E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers
+# Folder: D:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers
 
 build Drivers/all: phony
 

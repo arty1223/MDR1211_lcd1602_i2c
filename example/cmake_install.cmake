@@ -1,4 +1,4 @@
-# Install script for directory: E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2
+# Install script for directory: D:/Documents/Milandr/MDR1211_lcd1602_i2c/example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/cmake_install.cmake")
+  include("D:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Documents/Milandr/MDR1211_lcd1602_i2c/example/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

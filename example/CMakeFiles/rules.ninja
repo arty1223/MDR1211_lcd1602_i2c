@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SE:\Desktop\MCUs\Milandr\Milandr_GCC_template_2 -BE:\Desktop\MCUs\Milandr\Milandr_GCC_template_2
+  command = C:\ST\STM32CubeCLT_1.17.0\CMake\bin\cmake.exe --regenerate-during-build -SD:\Documents\Milandr\MDR1211_lcd1602_i2c\example -BD:\Documents\Milandr\MDR1211_lcd1602_i2c\example
   description = Re-running CMake...
   generator = 1
 

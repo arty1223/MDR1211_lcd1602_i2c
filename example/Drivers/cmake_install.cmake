@@ -1,4 +1,4 @@
-# Install script for directory: E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers
+# Install script for directory: D:/Documents/Milandr/MDR1211_lcd1602_i2c/example/Drivers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

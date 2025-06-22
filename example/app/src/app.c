@@ -24,9 +24,9 @@ int main(void)
 	// Далее идет пример из оригинального репозитория без каких-либо изменений за исключением замены функций HAL на мои реализации.
 	while (1)
 	{
-		if (millis - T1 >= Delay)
+		if (GetTick() - T1 >= Delay)
 		{
-			T1 = millis;
+			T1 = GetTick();
 			if (flag == 0)
 			{
 				lcd1602_SetCursor(0, 0);
@@ -155,29 +155,26 @@ int main(void)
 			}
 			if (flag == 5)
 			{
-				lcd1602_Backlight(false);
-				lcd1602_SetCursor(0, 0);
-				sprintf(lcd1602_tx_buffer, "int = %d", GetTick() / 1000);
-				lcd1602_Print_text(lcd1602_tx_buffer);
-				
-				// lcd1602_SetCursor(0, 0);
-				// sprintf(lcd1602_tx_buffer, "int = %d", counter);
-				// lcd1602_Print_text(lcd1602_tx_buffer);
+				// lcd1602_Backlight(false);
 
-				// lcd1602_SetCursor(0, 1);
-				// sprintf(lcd1602_tx_buffer, "float = %.4f ", counter_float);
-				// lcd1602_Print_text(lcd1602_tx_buffer);
+				lcd1602_SetCursor(0, 0);
+				sprintf(lcd1602_tx_buffer, "int = %d", counter);
+				lcd1602_Print_text(lcd1602_tx_buffer);
+
+				lcd1602_SetCursor(0, 1);
+				sprintf(lcd1602_tx_buffer, "float = %.4f ", counter_float);
+				lcd1602_Print_text(lcd1602_tx_buffer);
 
 				// lcd1602_SetCursor(0, 2);
 				// sprintf(lcd1602_tx_buffer, "time = %d", GetTick() / 1000);
 				// lcd1602_Print_text(lcd1602_tx_buffer);				
 			}
-			// if (millis - T2 >= 10)
-			// {
-			// 	T2 = millis;
-			// 	counter++;
-			// 	counter_float = counter_float + 0.0025f;
-			// }
+			if (GetTick() - T2 >= 10)
+			{
+				T2 = GetTick();
+				counter++;
+				counter_float = counter_float + 0.0025f;
+			}
 		}
 	}
 }
