@@ -1,0 +1,5 @@
+E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/CMakeFiles/Milandr-template.dir
+E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/CMakeFiles/edit_cache.dir
+E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/CMakeFiles/rebuild_cache.dir
+E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMakeFiles/edit_cache.dir
+E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMakeFiles/rebuild_cache.dir

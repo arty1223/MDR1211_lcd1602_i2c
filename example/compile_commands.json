@@ -1,0 +1,32 @@
+[
+{
+  "directory": "E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DUSE_MDR32F9Q2I -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/App/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/CoreSupport -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/startup -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o CMakeFiles\\Milandr-template.dir\\app\\src\\app.c.obj -c E:\\Desktop\\MCUs\\Milandr\\Milandr_GCC_template_2\\app\\src\\app.c",
+  "file": "E:\\Desktop\\MCUs\\Milandr\\Milandr_GCC_template_2\\app\\src\\app.c",
+  "output": "CMakeFiles\\Milandr-template.dir\\app\\src\\app.c.obj"
+},
+{
+  "directory": "E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DUSE_MDR32F9Q2I -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/App/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/CoreSupport -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/startup -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o CMakeFiles\\Milandr-template.dir\\Startup\\startup_gcc_MDR32F9Q2I.s.obj -c E:\\Desktop\\MCUs\\Milandr\\Milandr_GCC_template_2\\Startup\\startup_gcc_MDR32F9Q2I.s",
+  "file": "E:\\Desktop\\MCUs\\Milandr\\Milandr_GCC_template_2\\Startup\\startup_gcc_MDR32F9Q2I.s",
+  "output": "CMakeFiles\\Milandr-template.dir\\Startup\\startup_gcc_MDR32F9Q2I.s.obj"
+},
+{
+  "directory": "E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DUSE_MDR32F9Q2I -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/App/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/CoreSupport -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/startup -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o CMakeFiles\\Milandr-template.dir\\Drivers\\CMSIS\\DeviceSupport\\startup\\system_MDR32F9Q2I.c.obj -c E:\\Desktop\\MCUs\\Milandr\\Milandr_GCC_template_2\\Drivers\\CMSIS\\DeviceSupport\\startup\\system_MDR32F9Q2I.c",
+  "file": "E:\\Desktop\\MCUs\\Milandr\\Milandr_GCC_template_2\\Drivers\\CMSIS\\DeviceSupport\\startup\\system_MDR32F9Q2I.c",
+  "output": "CMakeFiles\\Milandr-template.dir\\Drivers\\CMSIS\\DeviceSupport\\startup\\system_MDR32F9Q2I.c.obj"
+},
+{
+  "directory": "E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DUSE_MDR32F9Q2I -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/App/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/CoreSupport -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/startup -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o CMakeFiles\\Milandr-template.dir\\Drivers\\SPL\\src\\MDR32FxQI_rst_clk.c.obj -c E:\\Desktop\\MCUs\\Milandr\\Milandr_GCC_template_2\\Drivers\\SPL\\src\\MDR32FxQI_rst_clk.c",
+  "file": "E:\\Desktop\\MCUs\\Milandr\\Milandr_GCC_template_2\\Drivers\\SPL\\src\\MDR32FxQI_rst_clk.c",
+  "output": "CMakeFiles\\Milandr-template.dir\\Drivers\\SPL\\src\\MDR32FxQI_rst_clk.c.obj"
+},
+{
+  "directory": "E:/Desktop/MCUs/Milandr/Milandr_GCC_template_2",
+  "command": "C:\\ST\\STM32CubeCLT_1.17.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DUSE_MDR32F9Q2I -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/App/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/CoreSupport -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/CMSIS/DeviceSupport/startup -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL/inc -IE:/Desktop/MCUs/Milandr/Milandr_GCC_template_2/Drivers/SPL -std=gnu11 -mfloat-abi=soft -mcpu=cortex-m3 -mthumb -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o CMakeFiles\\Milandr-template.dir\\Drivers\\SPL\\src\\MDR32FxQI_port.c.obj -c E:\\Desktop\\MCUs\\Milandr\\Milandr_GCC_template_2\\Drivers\\SPL\\src\\MDR32FxQI_port.c",
+  "file": "E:\\Desktop\\MCUs\\Milandr\\Milandr_GCC_template_2\\Drivers\\SPL\\src\\MDR32FxQI_port.c",
+  "output": "CMakeFiles\\Milandr-template.dir\\Drivers\\SPL\\src\\MDR32FxQI_port.c.obj"
+}
+]

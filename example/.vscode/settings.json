@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "main.h": "c",
+        "mdr32fxqi_port.h": "c",
+        "mdr32fxqi_rst_clk.h": "c",
+        "mdr32fxqi_bkp.h": "c",
+        "stdbool.h": "c",
+        "string.h": "c",
+        "locale.h": "c",
+        "time.h": "c",
+        "times.h": "c",
+        "lcd1602_i2c_lib.h": "c",
+        "app.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": true
+}
