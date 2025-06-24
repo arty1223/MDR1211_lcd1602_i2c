@@ -21,6 +21,7 @@
 void initI2C(); //настройка порта C и I2C на PC0 и PC1
 void lcd1602_Backlight(bool state);
 void lcd1602_Init(void);
+void lcd1602_keep_alive(void);
 void lcd1602_Clean(void);
 void lcd1602_SetCursor(uint8_t x, uint8_t y);
 void lcd1602_Print_symbol(uint8_t symbol);

@@ -17,13 +17,24 @@ int main(void)
 	initSystick();
 
 	initI2C();
-	// delay(15);		// ждем пока запустится дисплей
+	delay(15);	// ждем пока запустится дисплей
 	lcd1602_Init(); // инициализация дисплея.
 	lcd1602_Clean();
-	// lcd1602_Backlight(false);
 	// Далее идет пример из оригинального репозитория без каких-либо изменений за исключением замены функций HAL на мои реализации.
 	while (1)
 	{
+		/*реинит с очисткой дисплея раз в 10 сек.
+		это необходимый костыль, без него дисплей у меня отваливался*/
+		static uint64_t screen_Saver = 0;
+		if (millis - screen_Saver >= 10000) 
+		{
+			// delay(20);
+			lcd1602_Clean();
+			// delay(20);
+			screen_Saver = GetTick();
+		}
+
+
 		if (GetTick() - T1 >= Delay)
 		{
 			T1 = GetTick();
@@ -155,8 +166,6 @@ int main(void)
 			}
 			if (flag == 5)
 			{
-				// lcd1602_Backlight(false);
-
 				lcd1602_SetCursor(0, 0);
 				sprintf(lcd1602_tx_buffer, "int = %d", counter);
 				lcd1602_Print_text(lcd1602_tx_buffer);
@@ -165,9 +174,9 @@ int main(void)
 				sprintf(lcd1602_tx_buffer, "float = %.4f ", counter_float);
 				lcd1602_Print_text(lcd1602_tx_buffer);
 
-				// lcd1602_SetCursor(0, 2);
-				// sprintf(lcd1602_tx_buffer, "time = %d", GetTick() / 1000);
-				// lcd1602_Print_text(lcd1602_tx_buffer);				
+				lcd1602_SetCursor(0, 2);
+				sprintf(lcd1602_tx_buffer, "time = %d", GetTick() / 1000);
+				lcd1602_Print_text(lcd1602_tx_buffer);				
 			}
 			if (GetTick() - T2 >= 10)
 			{

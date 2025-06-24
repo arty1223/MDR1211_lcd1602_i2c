@@ -7,7 +7,7 @@
         {
             "cwd": "${workspaceRoot}",
             "name": "Debug with OpenOCD",
-            "configFiles": ["${workspaceRoot}/openocd/openocd.cfg"],
+            "configFiles": ["${workspaceRoot}/openocd/openocd_jlinkOB.cfg"],
             "executable": "${command:cmake.launchTargetPath}",
             "request": "launch",
             "type": "cortex-debug",
@@ -24,7 +24,7 @@
         {
             "cwd": "${workspaceRoot}",
             "name": "Attach with OpenOCD",
-            "configFiles": ["${workspaceRoot}/openocd/openocd.cfg"],
+            "configFiles": ["${workspaceRoot}/openocd/openocd_attach_jlinkOB.cfg"],
             "executable": "${command:cmake.launchTargetPath}",
             "request": "attach",
             "type": "cortex-debug",

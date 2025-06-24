@@ -258,6 +258,72 @@ void lcd1602_Init(void)
 	/*========Инициализация завершена. Включить дисплей========*/
 }
 
+
+
+/// Функция поддержания дисплея
+void lcd1602_keep_alive(void)
+{
+	// /*========Power on========*/
+	uint8_t tx_buffer = 0x30;
+	/*========Wait for more than 15 ms after Vcc rises to 4.5V========*/
+	delay(15);
+	/*========BF can not be checked before this instruction.========*/
+	/*========Function set ( Interface is 8 bits long.========*/
+	lcd1602_Send_init_Data(&tx_buffer);
+	/*========Wait for more 4.1 ms========*/
+	delay(5);
+	/*========BF can not be checked before this instruction.========*/
+	/*========Function set ( Interface is 8 bits long.========*/
+	lcd1602_Send_init_Data(&tx_buffer);
+	/*========Wait for more 100 microsec========*/
+	delay(1);
+	/*========BF can not be checked before this instruction.========*/
+	/*========Function set ( Interface is 8 bits long.========*/
+	lcd1602_Send_init_Data(&tx_buffer);;
+
+	/*========Включаем 4х-битный интерфейс========*/
+	tx_buffer = 0x20;
+	lcd1602_Send_init_Data(&tx_buffer);
+	/*========Включаем 4х-битный интерфейс========*/
+
+	/*======2 строки, шрифт 5х8======*/
+	tx_buffer = 0x20;
+	lcd1602_Send_init_Data(&tx_buffer);
+	tx_buffer = 0xC0;
+	lcd1602_Send_init_Data(&tx_buffer);
+	/*======2 строки, шрифт 5х8======*/
+
+	/*========Выключить дисплей========*/
+	tx_buffer = 0x00;
+	lcd1602_Send_init_Data(&tx_buffer);
+	tx_buffer = 0x80;
+	lcd1602_Send_init_Data(&tx_buffer);
+	/*========Выключить дисплей========*/	
+
+	/*========Инициализация завершена. Включить дисплей========*/
+	tx_buffer = 0x00;
+	lcd1602_Send_init_Data(&tx_buffer);
+	tx_buffer = 0xC0;
+	lcd1602_Send_init_Data(&tx_buffer);
+	/*========Инициализация завершена. Включить дисплей========*/
+	
+	/*========Очистить дисплей========*/
+	tx_buffer = 0x00;
+	lcd1602_Send_init_Data(&tx_buffer);
+	tx_buffer = 0x10;
+	lcd1602_Send_init_Data(&tx_buffer);
+	/*========Очистить дисплей========*/
+
+	/*========Режим сдвига курсора========*/
+	tx_buffer = 0x00;
+	lcd1602_Send_init_Data(&tx_buffer);
+	tx_buffer = 0x30;
+	lcd1602_Send_init_Data(&tx_buffer);
+	/*========Режим сдвига курсора========*/
+}
+
+
+
 /*-------------------------Функция инициализации дисплея-------------------------*/
 
 /*-------------------------Функция вывода символа на дисплей---------------------*/
